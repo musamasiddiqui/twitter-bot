@@ -1,0 +1,19 @@
+This bot does the following:
+    - Scrape Quote from QuotesDaddy.
+    - Tweet the Quote.
+    - Search tweets according to the query.
+    - Favorite a list of fetched tweets.
+
+You need to install following dependencies in order to make this bot work:
+    - Requests
+        pip install requests
+    
+    - Tweepy
+        pip install tweepy
+
+    - BeautifulSoup
+        pip install bs4
+
+Since Twitter uses oAuth so you need to get some keys. To get keys, create a Twitter app on https://apps.twitter.com/
+
+Feel free to add more features to the bot!
